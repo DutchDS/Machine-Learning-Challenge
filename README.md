@@ -3,10 +3,10 @@ By: Aukje Rijpkema 3/19/2020
 
 ## Introduction
 
-Data used in the exercize is from [Kaggle]('https://www.kaggle.com/nasa/kepler-exoplanet-search-results').
+Data used in this assignment is from ![Kaggle]('https://www.kaggle.com/nasa/kepler-exoplanet-search-results').
 The Kepler Space Observatory is a NASA-build satellite that was launched in 2009. The telescope is dedicated to searching for exoplanets in star systems besides our own, with the ultimate goal of possibly finding other habitable planets besides our own.
 
-Kepler had verified 1284 new exoplanets as of May 2016. As of October 2017 there are over 3000 confirmed exoplanets total (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission.
+As of October 2017 Kepler has verified over 3000 confirmed exoplanets (using all detection methods, including ground-based ones). The telescope is still active and continues to collect new data on its extended mission.
 
 ## Goal
 Create a model that predicts wether a given KOI (Keppler Object of Interest) is Positive (CONFIRMED) or Negative (NON_CONFIRMED)
@@ -22,7 +22,7 @@ The values possible are narrowed down to 'CONFIRMED' and 'NON-CONFIRMED' (='FALS
 
 Except for the y-value, all columns are numberic. The chart below is used to determine with model to use.
 
-!(prediction_chart)['Images/decision_chart.png]
+!('Images/decision_chart.png')['Images/decision_chart.png']
 
 ### Models that will be used:
 
