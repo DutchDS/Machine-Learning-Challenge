@@ -12,7 +12,7 @@ As of October 2017 Kepler has verified over 3000 confirmed exoplanets (using all
 ## Goal
 Create a model that predicts wether a given KOI (Keppler Object of Interest) is Positive (CONFIRMED) or Negative (NON_CONFIRMED)
 
-## Model selection
+## Study the data
 
 The original dataset is a cumulative record of all observed Kepler "objects of interest" — basically, all of the approximately 10,000 exoplanet candidates Kepler has taken observations on.
 
@@ -25,26 +25,24 @@ Except for the y-value, all columns are numberic. The chart below is used to det
 
 ![decision_chart.png](Images/decision_chart.png)
 
-### Models that will be used:
-
-Logistic Regression
-Decision tree
-Random Forest tree
-
-## Study data and make inital column selection
-
 After studying the meaning behind each column, most could be eliminated. The following were kept for Machine Learning:
 
-Orbital Period (days) - koi_period
-Impact Parameter (dTransit Duration (hours) - koi_impact
-distance between the center of the stellar disc and the center of the planet disc) - koi_duration
-Transit Depth (parts per million) - koi_depth
-Planetary Radius (Earth radii) - koi_prad
-Equilibrium Temperature (Kelvin) - koi_teq
-Insolation Flux [Earth flux] - koi_insol
-Transit Signal-to-Noise - koi_model_snr
+- Orbital Period (days) - koi_period
+- Impact Parameter (dTransit Duration (hours) - koi_impact
+- distance between the center of the stellar disc and the center of the planet disc) - koi_duration
+- Transit Depth (parts per million) - koi_depth
+- Planetary Radius (Earth radii) - koi_prad
+- Equilibrium Temperature (Kelvin) - koi_teq
+- Insolation Flux [Earth flux] - koi_insol
+- Transit Signal-to-Noise - koi_model_snr
 
-## Get the data in dataframe
+### Models that will be used:
+
+- Logistic Regression
+- Decision tree
+- Random Forest tree
+
+## Process data and build models
 
 Using !['Jupyter notebook']('Machine-Learning-Challenge/Scripts/') 1 script per model opens the dataset.
 
