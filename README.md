@@ -22,7 +22,7 @@ The values possible are narrowed down to 'CONFIRMED' and 'NON-CONFIRMED' (='FALS
 
 Except for the y-value, all columns are numberic. The chart below is used to determine with model to use.
 
-!(Images/decision_chart.png)[Images/decision_chart.png]
+(Images/decision_chart.png)[Images/decision_chart.png]
 
 ### Models that will be used:
 
