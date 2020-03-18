@@ -3,7 +3,7 @@ By: Aukje Rijpkema 3/19/2020
 
 ## Introduction
 
-Data used in this assignment is from NASA posted on ![webpage](https://www.kaggle.com/nasa/kepler-exoplanet-search-results).
+Data used in this assignment is from NASA posted on [Kaggle](https://www.kaggle.com/nasa/kepler-exoplanet-search-results).
 
 The Kepler Space Observatory is a NASA-build satellite that was launched in 2009. The telescope is dedicated to searching for exoplanets in star systems besides our own, with the ultimate goal of possibly finding other habitable planets besides our own.
 
@@ -23,7 +23,7 @@ The values possible are narrowed down to 'CONFIRMED' and 'NON-CONFIRMED' (='FALS
 
 Except for the y-value, all columns are numberic. The chart below is used to determine with model to use.
 
-[Images/decision_chart.png](Images/decision_chart.png)
+![decision_chart.png](Images/decision_chart.png)
 
 ### Models that will be used:
 
