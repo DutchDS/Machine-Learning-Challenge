@@ -74,14 +74,24 @@ LogisticRegression -
 DecisionTreeClassifier
 - Training Data Score: 0.9160382101558572
 - Testing Data Score: 0.8740573152337858
+- Strongest Features
+0.3561656867026829, koi_depth
+0.28230379547759393, koi_insol
+0.19621689067934783, koi_teq
 
 RandomForestClassifier
 - Training Data Score: 0.9866767219708397
 - Testing Data Score: 0.9027149321266968
+- Strongest Features:
+0.2148097509422242, koi_insol
+0.20849318484503404, koi_depth
+0.13489972016987398, koi_disposition
 
 Tensorflow - Sequential:
 - Loss: 0.6991759857013934
 - Accuracy: 0.9004524946212769
+
+
 
 The Decision Tree model outperforms the Logistic Regression model.
 The Deep Learning model has a high Loss value, but Accuracy is pretty good.
