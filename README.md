@@ -41,6 +41,7 @@ After studying the meaning behind each column, most could be eliminated. The fol
 - Logistic Regression
 - Decision tree
 - Random Forest tree
+- Deep Learning
 
 ## Process data and build models
 
@@ -60,6 +61,7 @@ Subsequent steps:
 avr_decision_tree.sav
 avr_logical_regression.sav
 avr_rfc_trees.sav
+avr_deep_learning.h5
 
 ## Conclusions
 
@@ -77,5 +79,10 @@ RandomForestClassifier
 - Training Data Score: 0.9866767219708397
 - Testing Data Score: 0.9027149321266968
 
+Tensorflow - Sequential:
+- Loss: 0.6991759857013934
+- Accuracy: 0.9004524946212769
+
 The Decision Tree model outperforms the Logistic Regression model.
+The Deep Learning model has a high Loss value, but Accuracy is pretty good.
 THe *RandomForest model* is the best model for predicting wether and observed object is indeed a potentially habitual planet!
