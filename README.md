@@ -65,7 +65,7 @@ avr_deep_learning.h5
 
 ## Conclusions
 
-Of the 3 models used here are the predicted R-scores:
+Of the 4 models used here are the predicted R-scores:
 
 LogisticRegression - 
 - Training Data Score: 0.7639517345399698
